@@ -1,0 +1,20 @@
+{
+  "project": {
+    "name": "my-api",
+    "module": "github.com/user/my-api"
+  },
+  "framework": {
+    "provider": "gin"
+  },
+  "api": {
+    "protocol": "rest",
+    "serialization": "json"
+  },
+  "database": {
+    "provider": "postgresql",
+    "orm": "gorm"
+  },
+  "cache": {
+    "provider": "redis"
+  }
+}
