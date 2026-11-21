@@ -5,6 +5,6 @@ func ApplyDefaults(config *Config) {
 		config.API.Protocol = "rest"
 	}
 	if config.API.Serialization == "" {
-		config.API.Protocol = "json"
+		config.API.Serialization = "json"
 	}
 }

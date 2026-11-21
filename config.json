@@ -1,7 +1,7 @@
 {
   "project": {
-    "name": "my-api",
-    "module": "github.com/user/my-api"
+    "name": "full-api",
+    "module": "github.com/example/full-api"
   },
   "framework": {
     "provider": "gin"
